@@ -59,6 +59,7 @@ export default function TopSection() {
                 ref={bgImgRef}
                 src="/assets/hero2.jpg"
                 className="absolute inset-0 w-full h-full object-cover"
+                alt="main background"
             />
 
             {/* Hero text layered above the image */}

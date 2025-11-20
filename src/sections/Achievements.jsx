@@ -31,6 +31,7 @@ export default function Achievements() {
                     <img
                         src="/assets/awards/grizzhacks6.jpg"
                         className="w-full h-auto object-contain"
+                        alt="grizzhacks"
                     />
                     <p className="mt-2 text-[3vw] md:text-[1vw] font-semibold">
                         GRIZZHACKS 6 — BEST AUTOMOTIVE HACK

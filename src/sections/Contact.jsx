@@ -66,16 +66,16 @@ export default function Contact() {
 
             {/* Social Icons */}
             <div className="flex gap-6">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-                <FaLinkedin className="text-white text-[10vw] md:text-[3vw] hover:opacity-60 transition" />
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer"  aria-label="LinkedIn" >
+                <FaLinkedin className="text-white text-[10vw] md:text-[3vw] hover:opacity-60 transition"/>
               </a>
 
-              <a href="https://github.com" target="_blank" rel="noreferrer">
-                <FaGithub className="text-white text-[10vw] md:text-[3vw] hover:opacity-60 transition" />
+              <a href="https://github.com" target="_blank" rel="noreferrer"  aria-label="GitHub" >
+                <FaGithub className="text-white text-[10vw] md:text-[3vw] hover:opacity-60 transition"/>
               </a>
 
-              <a href="mailto:ryan@example.com">
-                <MdEmail className="text-white text-[10vw] md:text-[3vw] hover:opacity-60 transition" />
+              <a href="mailto:ryan@example.com"  aria-label="Email">
+                <MdEmail className="text-white text-[10vw] md:text-[3vw] hover:opacity-60 transition"/>
               </a>
             </div>
           </div>
