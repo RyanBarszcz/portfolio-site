@@ -1,0 +1,30 @@
+[
+  {
+    "id": "project-1",
+    "title": "AstraRise",
+    "description": "A beautifully animated astronomy website exploring deep space visuals.",
+    "image": "/assets/projects/proj1.png",
+    "url": "https://your-link.com"
+  },
+  {
+    "id": "project-2",
+    "title": "PuzzleX",
+    "description": "A visual + interactive motion design experiment with GSAP.",
+    "image": "/assets/projects/proj2.png",
+    "url": "https://your-link.com"
+  },
+  {
+    "id": "project-3",
+    "title": "Minimal Archive",
+    "description": "A dark themed experimental UI using generative motion.",
+    "image": "/assets/projects/proj3.png",
+    "url": "https://your-link.com"
+  },
+  {
+    "id": "project-4",
+    "title": "The Last Ring",
+    "description": "A story-driven atmospheric landing page concept.",
+    "image": "/assets/projects/proj4.png",
+    "url": "https://your-link.com"
+  }
+]

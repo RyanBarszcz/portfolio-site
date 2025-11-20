@@ -1,6 +1,7 @@
 import TopSection from "./sections/TopSection";
 import Navbar from "./components/Navbar";
 import SmoothScrollWrapper from "./components/SmoothScrollWrapper";
+import Projects from "./sections/Projects";
 
 export default function App() {
 
@@ -10,8 +11,8 @@ export default function App() {
       <Navbar />
       <SmoothScrollWrapper>
         <TopSection />
-        {/* <Projects />
-      <Contact /> */}
+        <Projects />
+      {/* <Contact /> */}
       </SmoothScrollWrapper>
     </>
   );
