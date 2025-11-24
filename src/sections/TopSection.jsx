@@ -11,6 +11,7 @@ export default function TopSection() {
     const topRef = useRef(null);
     const bgImgRef = useRef(null);
 
+    // Main scroll effect
     useEffect(() => {
         const top = topRef.current;
         const bg = bgImgRef.current;
@@ -47,7 +48,20 @@ export default function TopSection() {
         return () => ctx.revert();
     }, []);
 
-
+    // About image scroll effect
+    useEffect(() => {
+        gsap.to("#about-image", {
+            y: "-20vh",
+            ease: "none",
+            scrollTrigger: {
+                trigger: "#about",
+                start: "top bottom",
+                end: "bottom top",
+                scrub: true,
+                // markers: true,
+            },
+        });
+    }, []);
 
 
     return (

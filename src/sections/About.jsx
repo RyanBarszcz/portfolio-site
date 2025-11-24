@@ -11,13 +11,15 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-stretch">
 
                 {/* LEFT — IMAGE (spans 2 columns) */}
-                <div className="md:col-span-2 h-full">
+                <div className="md:col-span-2 h-full overflow-hidden relative">
                     <img
+                        id="about-image"
                         src="/assets/about.jpg"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover scale-150 object-center will-change-transform"
                         alt="About"
                     />
                 </div>
+
 
                 {/* RIGHT — TEXT CONTENT */}
                 <div className="md:col-span-1 flex flex-col justify-between">
