@@ -11,66 +11,71 @@ export default function TopSection() {
     const topRef = useRef(null);
     const bgImgRef = useRef(null);
 
-    // useEffect(() => {
-    //     const top = topRef.current;
-    //     const bg = bgImgRef.current;
+    useEffect(() => {
+        const top = topRef.current;
+        const bg = bgImgRef.current;
 
-    //     // Wait for image to fully load before ScrollTrigger calculations
-    //     const onLoad = () => {
-    //         ScrollTrigger.refresh();
-    //     };
-    //     bg.addEventListener("load", onLoad);
+        const ctx = gsap.context(() => {
 
-    //     // GSAP animations
-    //     ScrollTrigger.create({
-    //         trigger: top,
-    //         start: "top top",
-    //         end: "bottom bottom",
-    //         pin: true,
-    //         pinSpacing: false,
-    //         scrub: true,
-    //     });
+            const wrapper = top.querySelector(".bg-wrapper");
 
-    //     gsap.fromTo(
-    //         bg,
-    //         { y: 0 },
-    //         {
-    //             y: "10vh",
-    //             ease: "none",
-    //             scrollTrigger: {
-    //                 trigger: top,
-    //                 start: "top top",
-    //                 end: "bottom top",
-    //                 scrub: true,
-    //             },
-    //         }
-    //     );
+            ScrollTrigger.create({
+                trigger: top,
+                start: "top top",
+                end: "bottom bottom",
+                pin: wrapper,
+                pinSpacing: false,
+                scrub: false,
+                // markers: true,
+            });
 
-    //     return () => {
-    //         bg.removeEventListener("load", onLoad);
-    //     };
-    // }, []);
+            gsap.to(bg, {
+                y: "10vh",
+                ease: "none",
+                scrollTrigger: {
+                    trigger: top,
+                    start: "top top",
+                    end: "bottom bottom",
+                    scrub: true,
+                    // markers: true,
+                },
+            });
+
+
+        }, top);
+
+        return () => ctx.revert();
+    }, []);
+
+
+
 
     return (
-        <section ref={topRef} className="relative min-h-[100vh] overflow-hidden">
+        <section ref={topRef} className="relative overflow-hidden">
 
-            {/* Background Image Behind Everything */}
-            <img
-                ref={bgImgRef}
-                src="/assets/hero2.jpg"
-                className="absolute inset-0 w-full h-full object-cover"
-                alt="main background"
-            />
-
-            {/* Hero text layered above the image */}
-            <div className="relative z-10 h-screen flex items-end px-12 pb-20">
-                <Hero />
+            {/* BACKGROUND (will be pinned) */}
+            <div className="bg-wrapper absolute inset-0 w-screen h-[150vh]">
+                <img
+                    ref={bgImgRef}
+                    src="/assets/hero3.jpg"
+                    className="w-full h-full object-cover scale-120"
+                />
             </div>
 
-            {/* About section layered above the image */}
-            <div className="relative z-10 bg-transparent px-12 pt-32 pb-6">
-                <About />
+
+            {/* SCROLLING CONTENT */}
+            <div className="relative z-10">
+                <div className="h-screen flex items-end px-12 pb-20">
+                    <Hero />
+                </div>
+
+                <div className="px-12 pt-32 pb-6 about-section">
+                    <About />
+                </div>
             </div>
+
         </section>
+
+
     );
 }

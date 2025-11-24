@@ -11,7 +11,7 @@ export default function Navbar() {
     const showAnim = gsap.from('.top-nav', {
       yPercent: -100,
       paused: true,
-      duration: 0.2,
+      duration: 0.5,
     }).progress(1);
 
     ScrollTrigger.create({
