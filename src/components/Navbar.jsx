@@ -45,9 +45,11 @@ export default function Navbar() {
         <a href="#contact" className="hover:opacity-60">CONTACT</a>
 
         <a
-          href="/resume.pdf"
-          className="px-4 py-2 border border-white rounded
-                     hover:bg-white hover:text-black transition"
+          href="/ryan-barszcz-resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 border border-white
+             hover:bg-white hover:text-black transition"
         >
           RESUME
         </a>
