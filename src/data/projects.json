@@ -2,29 +2,61 @@
   {
     "id": "project-1",
     "title": "AstraRise",
-    "description": "A beautifully animated astronomy website exploring deep space visuals.",
+    "year": "2024",
+    "description": "A beautifully animated astronomy experience blending deep-space imagery, parallax motion, and subtle atmospheric UI. Built as an exploration of immersive visual storytelling.",
     "image": "/assets/projects/proj1.png",
-    "url": "https://your-link.com"
+    "stack": ["React", "GSAP", "Three.js", "TailwindCSS"],
+    "highlights": [
+      "Smooth parallax layers",
+      "Dynamic starfield rendering",
+      "Cinematic hero transitions",
+      "Fully responsive visual layout"
+    ],
+    "live": "https://your-link.com"
   },
   {
     "id": "project-2",
     "title": "PuzzleX",
-    "description": "A visual + interactive motion design experiment with GSAP.",
+    "year": "2024",
+    "description": "An experimental motion-driven interface blending puzzle interactions with expressive GSAP animation. Focused heavily on UX timing, easing, and playful movement.",
     "image": "/assets/projects/proj2.png",
-    "url": "https://your-link.com"
+    "stack": ["JavaScript", "GSAP", "HTML Canvas"],
+    "highlights": [
+      "Custom easing & motion curves",
+      "Interactive piece animations",
+      "Micro-interaction design",
+      "Performance-optimized effects"
+    ],
+    "live": "https://your-link.com"
   },
   {
     "id": "project-3",
     "title": "Minimal Archive",
-    "description": "A dark themed experimental UI using generative motion.",
+    "year": "2024",
+    "description": "A minimalistic archive interface built as a design study in dark mode form, spatial hierarchy, and ambient motion. Uses generative layout transitions.",
     "image": "/assets/projects/proj3.png",
-    "url": "https://your-link.com"
+    "stack": ["React", "Framer Motion", "TailwindCSS"],
+    "highlights": [
+      "Generative layout transitions",
+      "Clean typography system",
+      "Dark-mode optimized feel",
+      "Ambient motion loops"
+    ],
+    "live": "https://your-link.com"
   },
   {
     "id": "project-4",
     "title": "The Last Ring",
-    "description": "A story-driven atmospheric landing page concept.",
+    "year": "2023",
+    "description": "A story-driven atmospheric landing page with symbolic motion cues, soft lighting, and dramatic pacing. Designed to feel like the opening shot of a film.",
     "image": "/assets/projects/proj4.png",
-    "url": "https://your-link.com"
+    "stack": ["HTML", "TailwindCSS", "GSAP", "Three.js"],
+    "highlights": [
+      "Cinematic typography",
+      "Atmospheric lighting",
+      "Symbolic motion sequences",
+      "Immersive storytelling flow"
+    ],
+    "live": "https://your-link.com"
   }
 ]
