@@ -20,7 +20,7 @@ export default function Hero() {
           <h4 className="text-white text-[3.5vw] md:text-[1.17vw] leading-[1.05]">
             A designer who loves to code and a developer who loves to design. I
             create things that look simple, but feel alive. For me, a good
-            website isn't just about pixels and performance—it's about how it
+            website isn't just about pixels and performance, it's about how it
             makes people feel when they use it.
           </h4>
 

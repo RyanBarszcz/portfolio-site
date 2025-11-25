@@ -26,7 +26,7 @@ export default function About() {
 
                     {/* MAIN PARAGRAPH */}
                     <p className="text-[4.5vw] md:text-[1.1vw] leading-[1.4] mb-6">
-                        Hey, I'm Ryan Barszcz — a designer at heart and a developer by passion.
+                        Hello, I'm Ryan Barszcz. I'm a designer at heart and a developer by passion.
                         I build clean, modern, and meaningful digital experiences that focus not
                         just on visuals, but on how they make people feel.
                         <br /><br />
@@ -35,7 +35,7 @@ export default function About() {
                         and performance. I love turning ideas into polished, immersive interfaces
                         that feel alive and intentional.
                         <br /><br />
-                        What drives me most is curiosity — the urge to learn, refine, experiment,
+                        What drives me most is curiosity, the urge to learn, refine, experiment,
                         and push creative boundaries. Every project tells a story, and I’m obsessed
                         with crafting the small details that make that story resonate.
                         <br /><br />
@@ -49,8 +49,8 @@ export default function About() {
                             FUN FACT
                         </h3>
                         <p className="text-[4vw] md:text-[1.2vw] leading-[1.4]">
-                            During COVID, I built a social media page that grew so fast it could fill the
-                            University of Michigan stadium — not once, but six times over.
+                            During COVID, I built a social media page that grew so large it could fill the
+                            University of Michigan stadium (100k), not once, but six times over.
                         </p>
                     </div>
                 </div>
