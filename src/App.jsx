@@ -8,7 +8,7 @@ import Contact from "./sections/Contact";
 export default function App() {
 
   return (
-    // TODO: TopSection GSAP, Projects GSAP, Achievements GSAP, Contact GSAP, Navbar Scroll Linking, Mobile/Tablet Design
+    // TODO: Projects GSAP, Achievements GSAP, Contact GSAP, Navbar Scroll Linking, Mobile/Tablet Design
     <>
       <Navbar />
       <SmoothScrollWrapper>
