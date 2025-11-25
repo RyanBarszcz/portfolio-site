@@ -22,22 +22,23 @@ export default function Navbar() {
     });
   };
 
-  useEffect(() => {
-    const showAnim = gsap.from('.top-nav', {
-      yPercent: -100,
-      paused: true,
-      duration: 0.5,
-    }).progress(1);
+  // Navbar up and down gsap
+  // useEffect(() => {
+  //   const showAnim = gsap.from('.top-nav', {
+  //     yPercent: -100,
+  //     paused: true,
+  //     duration: 0.5,
+  //   }).progress(1);
 
-    ScrollTrigger.create({
-      start: "top top",
-      end: "max",
-      // markers: true,
-      onUpdate: (self) => {
-        self.direction === -1 ? showAnim.play() : showAnim.reverse()
-      }
-    });
-  }, []);
+  //   ScrollTrigger.create({
+  //     start: "top top",
+  //     end: "max",
+  //     // markers: true,
+  //     onUpdate: (self) => {
+  //       self.direction === -1 ? showAnim.play() : showAnim.reverse()
+  //     }
+  //   });
+  // }, []);
 
   return (
     <nav
