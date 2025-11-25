@@ -28,18 +28,18 @@ export default function Projects() {
       // Slight parallax & scale
       gsap.fromTo(
         bg,
-        { y: "-100vh" }, 
+        { y: "-100vh" },
         {
-        y: "-20vh",
-        ease: "none",
-        scrollTrigger: {
-          trigger: "#projects",
-          start: "top bottom",
-          end: "bottom top",
-          scrub: true,
-          markers: true,
-        },
-      });
+          y: "-20vh",
+          ease: "none",
+          scrollTrigger: {
+            trigger: "#projects",
+            start: "top bottom",
+            end: "bottom top",
+            scrub: true,
+            // markers: true,
+          },
+        });
     });
 
     return () => ctx.revert();
