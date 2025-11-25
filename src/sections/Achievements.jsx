@@ -81,7 +81,16 @@ export default function Achievements() {
             {/* CENTERED HEADING (does NOT move) */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 text-center">
                 <h2 className="text-[9vw] md:text-[4.5vw] font-extrabold leading-none whitespace-nowrap">
-                    ACHIEVEMENTS <span className="font-light">& RECOGNITION</span>
+
+                    {/* MOBILE TWO LINES */}
+                    <span className="block md:inline">
+                        ACHIEVEMENTS &
+                    </span>
+
+                    {/* MOBILE → NEXT LINE / DESKTOP → SAME LINE */}
+                    <span className="block md:inline font-light">
+                        RECOGNITION
+                    </span>
                 </h2>
             </div>
 

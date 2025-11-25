@@ -36,7 +36,7 @@ export default function Hero() {
           {/* LET'S COLLABORATE */}
           <a
             href="mailto:rbarszcz@umich.edu?subject=Let's%20Collaborate"
-            className="border border-white px-[4vw] md:px-[2vw] py-[1.5vw] md:py-[0.65vw] text-white text-[4vw] md:text-[1.3vw] tracking-wide hover:bg-white hover:text-black transition"
+            className="border border-white px-[4vw] md:px-[2vw] py-[1.5vw] md:py-[0.65vw] text-white text-[3vw] md:text-[1.3vw] tracking-wide hover:bg-white hover:text-black transition"
           >
             LET'S COLLABORATE
           </a>
@@ -44,7 +44,7 @@ export default function Hero() {
           {/* HIRE ME */}
           <a
             href="mailto:rbarszcz@umich.edu?subject=Hiring%20Inquiry"
-            className="border border-white px-[4vw] md:px-[2vw] py-[1.5vw] md:py-[0.65vw] text-white text-[4vw] md:text-[1.3vw] tracking-wide hover:bg-white hover:text-black transition"
+            className="border border-white px-[4vw] md:px-[2vw] py-[1.5vw] md:py-[0.65vw] text-white text-[3vw] md:text-[1.3vw] tracking-wide hover:bg-white hover:text-black transition"
           >
             HIRE ME
           </a>

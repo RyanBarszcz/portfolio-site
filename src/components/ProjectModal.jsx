@@ -89,28 +89,28 @@ export default function ProjectModal({ project, onClose }) {
           {/* LEFT SIDE */}
           <div className="lg:w-1/2">
             <div className="mb-6">
-              <h2 className="text-4xl font-extrabold">{project.title}</h2>
-              <h3 className="text-xl opacity-70">{project.year}</h3>
+              <h2 className="text-2xl lg:text-4xl font-extrabold">{project.title}</h2>
+              <h3 className="text-sm lg:text-xl opacity-70">{project.year}</h3>
             </div>
 
             <img
               src={project.image}
               alt={project.title}
-              className="w-full rounded-md object-cover mb-8"
+              className="w-full rounded-md object-cover mb-6 lg:mb-8"
             />
 
-            <p className="text-lg text-white/80 leading-relaxed mb-8">
+            <p className="text-xs lg:text-lg text-white/80 leading-relaxed lg:mb-8">
               {project.description}
             </p>
           </div>
 
           {/* RIGHT SIDE */}
-          <div className="lg:w-1/2 flex flex-col mt-21">
+          <div className="lg:w-1/2 flex flex-col lg:mt-21">
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <div className="grid grid-cols-2 md:grid-cols-2 gap-8 mb-8">
               <div>
-                <h3 className="text-xl font-bold mb-3 tracking-wide">TECH STACK</h3>
-                <ul className="space-y-1">
+                <h3 className="text-sm lg:text-xl font-bold mb-1 lg:mb-3 tracking-wide">TECH STACK</h3>
+                <ul className="space-y-1 text-xs lg:text-base">
                   {project.stack.map((tech, i) => (
                     <li key={i} className="text-white/70">• {tech}</li>
                   ))}
@@ -118,8 +118,8 @@ export default function ProjectModal({ project, onClose }) {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold mb-3 tracking-wide">HIGHLIGHTS</h3>
-                <ul className="space-y-1">
+                <h3 className="text-sm lg:text-xl font-bold mb-3 tracking-wide">HIGHLIGHTS</h3>
+                <ul className="space-y-1 text-xs lg:text-base">
                   {project.highlights.map((h, i) => (
                     <li key={i} className="text-white/70">• {h}</li>
                   ))}
