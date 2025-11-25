@@ -1,6 +1,6 @@
 # Ryan Barszcz — Portfolio
 
-![Preview Image](/assets/readme/preview.png)
+![Preview Image](/public/assets/readme/preview.png)
 
 A modern, animation-driven developer portfolio built with **React**, **TailwindCSS**, and **GSAP**.  
 This site showcases my selected projects, UI/UX animations, and engineering work across web, mobile, and full-stack applications.
