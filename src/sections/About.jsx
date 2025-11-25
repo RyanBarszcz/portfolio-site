@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section id="about" className="relative w-full text-white">
+        <section id="about" className="relative w-full text-white pt-20">
 
             {/* ABOUT ME Title */}
             <h2 className="text-[10vw] md:text-[5vw] font-extrabold leading-none mb-10">

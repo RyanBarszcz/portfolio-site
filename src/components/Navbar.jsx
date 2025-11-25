@@ -1,11 +1,26 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/all";
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 export default function Navbar() {
   const navRef = useRef(null);
+
+  const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: {
+        y: el,
+        // offsetY: 100 
+      },
+      ease: "power2.out"
+    });
+  };
 
   useEffect(() => {
     const showAnim = gsap.from('.top-nav', {
@@ -29,7 +44,8 @@ export default function Navbar() {
       ref={navRef}
       className="top-nav fixed top-0 left-0 w-full z-50 px-12 py-6
                  flex items-center justify-between 
-                 bg-transparent"
+                 bg-gradient-to-b
+                from-black/40 via-black/20 to-transparent"
     >
       {/* LEFT SIDE */}
       <div className="text-white">
@@ -39,10 +55,21 @@ export default function Navbar() {
 
       {/* RIGHT SIDE */}
       <div className="flex items-center gap-6 text-white font-semibold text-sm">
-        <a href="#about" className="hover:opacity-60">ABOUT</a>
-        <a href="#projects" className="hover:opacity-60">PROJECTS</a>
-        <a href="#recognition" className="hover:opacity-60">RECOGNITION</a>
-        <a href="#contact" className="hover:opacity-60">CONTACT</a>
+        <button onClick={() => scrollToSection("about")} className="hover:opacity-60 hover:cursor-pointer">
+          ABOUT
+        </button>
+
+        <button onClick={() => scrollToSection("projects")} className="hover:opacity-60 hover:cursor-pointer">
+          PROJECTS
+        </button>
+
+        <button onClick={() => scrollToSection("achievements")} className="hover:opacity-60 hover:cursor-pointer">
+          RECOGNITION
+        </button>
+
+        <button onClick={() => scrollToSection("contact")} className="hover:opacity-60 hover:cursor-pointer">
+          CONTACT
+        </button>
 
         <a
           href="/ryan-barszcz-resume.pdf"
