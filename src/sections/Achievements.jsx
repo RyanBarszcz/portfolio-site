@@ -74,7 +74,7 @@ export default function Achievements() {
                     alt="Achievements Background"
                 />
             </div>
-            {/* Dark overlay (10% black) */}
+            {/* Dark overlay (20% black) */}
             <div className="absolute inset-0 bg-black/20 z-8 pointer-events-none"></div>
 
 
