@@ -1,62 +1,88 @@
 [
   {
-    "id": "project-1",
-    "title": "AstraRise",
-    "year": "2024",
-    "description": "A beautifully animated astronomy experience blending deep-space imagery, parallax motion, and subtle atmospheric UI. Built as an exploration of immersive visual storytelling.",
-    "image": "/assets/projects/proj1.png",
-    "stack": ["React", "GSAP", "Three.js", "TailwindCSS"],
-    "highlights": [
-      "Smooth parallax layers",
-      "Dynamic starfield rendering",
-      "Cinematic hero transitions",
-      "Fully responsive visual layout"
-    ],
-    "live": "https://your-link.com"
-  },
-  {
-    "id": "project-2",
-    "title": "PuzzleX",
-    "year": "2024",
-    "description": "An experimental motion-driven interface blending puzzle interactions with expressive GSAP animation. Focused heavily on UX timing, easing, and playful movement.",
-    "image": "/assets/projects/proj2.png",
-    "stack": ["JavaScript", "GSAP", "HTML Canvas"],
-    "highlights": [
-      "Custom easing & motion curves",
-      "Interactive piece animations",
-      "Micro-interaction design",
-      "Performance-optimized effects"
-    ],
-    "live": "https://your-link.com"
-  },
-  {
-    "id": "project-3",
-    "title": "Minimal Archive",
-    "year": "2024",
-    "description": "A minimalistic archive interface built as a design study in dark mode form, spatial hierarchy, and ambient motion. Uses generative layout transitions.",
-    "image": "/assets/projects/proj3.png",
-    "stack": ["React", "Framer Motion", "TailwindCSS"],
-    "highlights": [
-      "Generative layout transitions",
-      "Clean typography system",
-      "Dark-mode optimized feel",
-      "Ambient motion loops"
-    ],
-    "live": "https://your-link.com"
-  },
-  {
-    "id": "project-4",
-    "title": "The Last Ring",
-    "year": "2023",
-    "description": "A story-driven atmospheric landing page with symbolic motion cues, soft lighting, and dramatic pacing. Designed to feel like the opening shot of a film.",
-    "image": "/assets/projects/proj4.png",
-    "stack": ["HTML", "TailwindCSS", "GSAP", "Three.js"],
-    "highlights": [
-      "Cinematic typography",
-      "Atmospheric lighting",
-      "Symbolic motion sequences",
-      "Immersive storytelling flow"
-    ],
-    "live": "https://your-link.com"
-  }
+  "id": "liberty-athletic-club",
+  "title": "Liberty Athletic Club",
+  "year": "2025",
+  "description": "A full redesign for Liberty Athletic Club featuring modern layouts, GSAP-driven motion, a custom Sanity CMS, and a brand-consistent visual identity. Built for real-world use with mobile-first UX, optimized images, and smooth page transitions.",
+  "image": "/assets/projects/liberty.jpg",
+  "stack": ["React", "GSAP", "TailwindCSS", "Sanity CMS", "Node.js"],
+  "highlights": [
+    "Immersive GSAP animations",
+    "Sanity-powered CMS for staff",
+    "Responsive multi-page layout",
+    "Brand-focused UI components"
+  ],
+  "live": "https://liberty-website.vercel.app/",
+  "github": "https://github.com/RyanBarszcz/liberty-website"
+},
+{
+  "id": "potts-photography",
+  "title": "Potts Photography",
+  "year": "2025",
+  "description": "A complete photography e-commerce experience with Stripe checkout, album management, CMS-driven content, and cinematic page reveals. Designed to feel elegant and premium while supporting real print sales.",
+  "image": "/assets/projects/ppp.jpg",
+  "stack": ["React", "GSAP", "Stripe", "Sanity CMS", "TailwindCSS"],
+  "highlights": [
+    "Embedded Stripe checkout",
+    "Dynamic album + prints system",
+    "Pinned GSAP interactions",
+    "Fully mobile-optimized design"
+  ],
+  "live": "https://patti-potts-photography.vercel.app/",
+  "github": "https://github.com/RyanBarszcz/potts-photo-site"
+},
+{
+  "id": "job-portal",
+  "title": "Job Portal Platform",
+  "year": "2025",
+  "description": "A full-stack job application platform built with modern authentication, role-based views, company dashboards, and a clean mobile-first UI. Includes job browsing, posting, application tracking, and real-time updates using Firebase.",
+  "image": "/assets/projects/job-portal.jpg",
+  "stack": ["React", "Firebase Auth", "Firestore", "TailwindCSS", "Node.js"],
+  "highlights": [
+    "Company + applicant role separation",
+    "Application tracking system",
+    "Real-time Firestore data updates",
+    "Clean, responsive dashboard UI"
+  ],
+  "live": "https://job-portal-new-client-one-ashen.vercel.app/",
+  "github": "https://github.com/RyanBarszcz/job-portal"
+},
+{
+  "id": "alert-arrival",
+  "title": "Alert Arrival",
+  "year": "2024",
+  "description": "An award-winning automotive safety prototype built during GrizzHacks 6. Uses Python + OpenCV to detect vehicle arrival events and sends real-time alerts through a Flutter mobile interface. Designed to explore rapid-response safety workflows in automotive environments.",
+  "image": "/assets/projects/aa.jpg",
+  "stack": ["Flutter", "Python", "OpenCV", "Firebase"],
+  "highlights": [
+    "Winner — Best Automotive Hack",
+    "Real-time arrival detection",
+    "Cross-platform Flutter app",
+    "Instant push notification system"
+  ],
+  "live": "https://devpost.com/software/alert-arrival",
+  "github": "https://github.com/RyanBarszcz/Alert-Arrival",
+  "award": true
+},
+{
+  "id": "banking-app",
+  "title": "Banking App",
+  "year": "2024",
+  "description": "A clean and modern banking interface featuring account views, transaction history, money transfers, and authentication flows. Built as a study in UI/UX design, secure navigation, and structured state management across multiple screens.",
+  "image": "/assets/projects/bank.jpg",
+  "stack": ["React Native", "Expo", "Context API", "TailwindCSS"],
+  "highlights": [
+    "Multi-screen financial UI",
+    "Secure login + onboarding flow",
+    "Transaction list + search",
+    "Cross-platform mobile experience"
+  ],
+  "live": "https://banking-ten-khaki.vercel.app/sign-in",
+  "github": "https://github.com/RyanBarszcz/BankingApp"
+}
+
+
+
+
+
 ]

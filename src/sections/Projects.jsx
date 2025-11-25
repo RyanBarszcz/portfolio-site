@@ -141,8 +141,22 @@ export default function Projects() {
                   setActiveProject(project);
                   scrollToSection("projects");
                 }}
-                className="cursor-pointer w-full md:min-w-[10vw] overflow-hidden"
+                className="relative cursor-pointer w-full md:min-w-[10vw] overflow-hidden"
               >
+                {/* AWARD BADGE (only if award: true) */}
+                {project.award && (
+                  <img
+                    src="/assets/awards/award.svg"
+                    alt="Award Badge"
+                    className="
+                      absolute top-2 right-2
+                      w-8 h-8 md:w-10 md:h-10
+                      drop-shadow-xl
+                    "
+                  />
+                )}
+
+                {/* PROJECT IMAGE */}
                 <img
                   src={project.image}
                   className="w-full h-auto object-cover rounded-md"

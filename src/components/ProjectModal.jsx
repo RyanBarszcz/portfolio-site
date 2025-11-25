@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
+import { FaGithub } from "react-icons/fa";
 
 export default function ProjectModal({ project, onClose }) {
   if (!project) return null;
@@ -57,7 +58,7 @@ export default function ProjectModal({ project, onClose }) {
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center">
-      
+
       {/* BACKDROP */}
       <div
         ref={backdropRef}
@@ -89,9 +90,25 @@ export default function ProjectModal({ project, onClose }) {
           {/* LEFT SIDE */}
           <div className="lg:w-1/2">
             <div className="mb-6">
-              <h2 className="text-2xl lg:text-4xl font-extrabold">{project.title}</h2>
-              <h3 className="text-sm lg:text-xl opacity-70">{project.year}</h3>
+              <div className="flex items-center gap-3">
+                <h2 className="text-2xl lg:text-4xl font-extrabold">
+                  {project.title}
+                </h2>
+                {/* AWARD MEDAL (only if award: true) */}
+                {project.award && (
+                  <img
+                    src="/assets/awards/award.svg"
+                    alt="Award"
+                    className="w-6 h-6 lg:w-8 lg:h-8"
+                  />
+                )}
+              </div>
+
+              <h3 className="text-sm lg:text-xl opacity-70 mt-1">
+                {project.year}
+              </h3>
             </div>
+
 
             <img
               src={project.image}
@@ -106,7 +123,7 @@ export default function ProjectModal({ project, onClose }) {
 
           {/* RIGHT SIDE */}
           <div className="lg:w-1/2 flex flex-col lg:mt-21">
-            
+
             <div className="grid grid-cols-2 md:grid-cols-2 gap-8 mb-8">
               <div>
                 <h3 className="text-sm lg:text-xl font-bold mb-1 lg:mb-3 tracking-wide">TECH STACK</h3>
@@ -127,21 +144,47 @@ export default function ProjectModal({ project, onClose }) {
               </div>
             </div>
 
-            {/* LIVE BUTTON aligned bottom-right on large */}
-            <a
-              href={project.live}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="
-                inline-block px-6 py-3 mt-4
-                border border-white 
-                hover:bg-white hover:text-black 
-                transition font-semibold text-center
-                lg:mt-auto
-              "
-            >
-              Visit Project →
-            </a>
+            {/* LINKS ROW */}
+            <div className="flex gap-4 mt-6 lg:mt-auto">
+
+              {/* GitHub */}
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+                    flex items-center gap-2 px-6 py-3
+                    border border-white 
+                    hover:bg-white hover:text-black 
+                    transition font-semibold text-center
+                  "
+                >
+                  <FaGithub className="text-sm lg:text-lg" />
+                  GitHub
+                </a>
+              )}
+
+              {/* LIVE LINK */}
+              {project.live && (
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+                    flex items-center gap-2 px-6 py-3
+                    border border-white 
+                    hover:bg-white hover:text-black 
+                    transition font-semibold text-center
+                    text-sm lg:text-lg
+                  "
+                >
+                  Visit Project
+                </a>
+              )}
+
+            </div>
+
           </div>
         </div>
       </div>
