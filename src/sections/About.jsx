@@ -14,7 +14,7 @@ export default function About() {
                 <div className="md:col-span-2 h-full overflow-hidden relative">
                     <img
                         id="about-image"
-                        src="/assets/about.jpg"
+                        src="/assets/about3.jpg"
                         className="w-full h-full object-cover scale-150 object-center will-change-transform"
                         alt="About"
                     />

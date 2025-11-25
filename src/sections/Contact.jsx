@@ -34,7 +34,7 @@ export default function Contact() {
             </p>
 
             <a
-              href="mailto:ryan@example.com?subject=Let's%20Collaborate"
+              href="mailto:rbarszcz@umich.edu?subject=Let's%20Collaborate"
               className="border border-white px-6 py-3 inline-block hover:bg-white hover:text-black transition text-[4vw] md:text-[1vw]"
             >
               LET'S COLLABORATE
@@ -50,7 +50,7 @@ export default function Contact() {
             </p>
 
             <a
-              href="mailto:ryan@example.com?subject=Hiring%20Inquiry"
+              href="mailto:rbarszcz@umich.edu?subject=Hiring%20Inquiry"
               className="border border-white px-6 py-3 inline-block hover:bg-white hover:text-black transition text-[4vw] md:text-[1vw]"
             >
               HIRE ME
@@ -66,15 +66,15 @@ export default function Contact() {
 
             {/* Social Icons */}
             <div className="flex gap-6">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer"  aria-label="LinkedIn" >
+              <a href="https://linkedin.com/in/ryan-barszcz-4924931b6/" target="_blank" rel="noreferrer"  aria-label="LinkedIn" >
                 <FaLinkedin className="text-white text-[10vw] md:text-[3vw] hover:opacity-60 transition"/>
               </a>
 
-              <a href="https://github.com" target="_blank" rel="noreferrer"  aria-label="GitHub" >
+              <a href="https://github.com/RyanBarszcz" target="_blank" rel="noreferrer"  aria-label="GitHub" >
                 <FaGithub className="text-white text-[10vw] md:text-[3vw] hover:opacity-60 transition"/>
               </a>
 
-              <a href="mailto:ryan@example.com"  aria-label="Email">
+              <a href="mailto:rbarszcz@umich.edu"  aria-label="Email">
                 <MdEmail className="text-white text-[10vw] md:text-[3vw] hover:opacity-60 transition"/>
               </a>
             </div>

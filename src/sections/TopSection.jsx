@@ -50,17 +50,20 @@ export default function TopSection() {
 
     // About image scroll effect
     useEffect(() => {
-        gsap.to("#about-image", {
-            y: "-20vh",
-            ease: "none",
-            scrollTrigger: {
-                trigger: "#about",
-                start: "top bottom",
-                end: "bottom top",
-                scrub: true,
-                // markers: true,
-            },
-        });
+        gsap.fromTo(
+            "#about-image",
+            { y: "20vh" },
+            {
+                y: "-20vh",
+                ease: "none",
+                scrollTrigger: {
+                    trigger: "#about",
+                    start: "top bottom",
+                    end: "bottom top",
+                    scrub: true,
+                    // markers: true,
+                },
+            });
     }, []);
 
 
