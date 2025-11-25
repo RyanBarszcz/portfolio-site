@@ -1,16 +1,48 @@
-# React + Vite
+# Ryan Barszcz — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Preview Image](/assets/readme/preview.png)
 
-Currently, two official plugins are available:
+A modern, animation-driven developer portfolio built with **React**, **TailwindCSS**, and **GSAP**.  
+This site showcases my selected projects, UI/UX animations, and engineering work across web, mobile, and full-stack applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+- **React** — Component-based architecture for clean UI
+- **Vite** — Fast dev environment + optimized builds
+- **TailwindCSS** — Utility-first responsive design
+- **GSAP** — Smooth scroll animations, pinned sections, motion effects
+- **ScrollTrigger** — Parallax, pinning, scroll-based interactions
+- **Three.js (select pages)** — 3D exploration and product visualization
+- **Sanity CMS (projects using CMS)** — Content and asset management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎨 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✨ Animated Hero + Smooth Transitions
+Beautiful landing animations powered by GSAP, designed to feel premium and fluid.
+
+### 📸 Interactive Project Gallery
+Hover reveals, modals with animations, and scroll-triggered visuals that highlight each project’s personality.
+
+### 🏆 Awards Support
+Projects with `"award": true` automatically display an award badge on thumbnails and inside modal titles.
+
+### 📱 Fully Responsive Layout
+Optimized for phones, tablets, and desktop breakpoints with tuned spacing and typography.
+
+### 📁 JSON-Driven Projects
+All project content lives in `projects.json`, making additions or edits extremely easy.
+
+### 🧩 Modular Components
+Reusable card, modal, and section components keep the codebase organized and scalable.
+
+---
+
+## 🛠️ Running Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/RyanBarszcz/your-portfolio
+cd your-portfolio
