@@ -8,7 +8,7 @@ import Contact from "./sections/Contact";
 export default function App() {
 
   return (
-    // TODO: add all correct data
+    // TODO: 
     <>
       <Navbar />
       <SmoothScrollWrapper>
