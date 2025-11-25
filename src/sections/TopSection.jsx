@@ -80,12 +80,12 @@ export default function TopSection() {
             </div>
 
             {/* Dark overlay (20% black) */}
-            <div className="absolute inset-0 bg-black/20 z-8 pointer-events-none"></div>
+            <div className="absolute inset-0 bg-black/30 z-8 pointer-events-none"></div>
 
 
             {/* SCROLLING CONTENT */}
             <div className="relative z-10">
-                <div className="h-screen flex items-end px-12 pb-20">
+                <div className="h-screen flex items-end px-8 lg:px-12 pb-12">
                     <Hero />
                 </div>
 

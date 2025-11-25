@@ -4,7 +4,7 @@ export default function Hero() {
 
       {/* LEFT SIDE — MAIN TITLE */}
       <div className="mb-[2.1vw] md:mb-0 overflow-hidden">
-        <h1 className="text-white md:text-[7vw] text-[10vw] leading-[0.9] font-bold uppercase">
+        <h1 className="text-white md:text-[7vw] text-[8vw] leading-[0.9] font-bold uppercase">
           <span>creative</span>
           <span className="font-light"> designer</span>
           <br />
@@ -25,7 +25,7 @@ export default function Hero() {
           </h4>
 
           {/* MOVE PEOPLE LINE */}
-          <h3 className="text-white text-[6vw] md:text-[2.5vw] leading-[1.1] mt-[2.5vw] md:mt-[0.8vw] font-extrabold">
+          <h3 className="text-white text-[4vw] md:text-[2.5vw] leading-[1.1] mt-[2.5vw] md:mt-[0.8vw] font-extrabold">
             MOVE PEOPLE, <span className="font-light">NOT JUST SCREENS.</span>
           </h3>
         </div>

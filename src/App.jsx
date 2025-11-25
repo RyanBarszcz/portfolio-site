@@ -8,7 +8,7 @@ import Contact from "./sections/Contact";
 export default function App() {
 
   return (
-    // TODO: Project Page Design, Mobile/Tablet Design
+    // TODO: Mobile/Tablet Design, add all correct data
     <>
       <Navbar />
       <SmoothScrollWrapper>
