@@ -30,7 +30,7 @@ export default function Navbar() {
       {/* LEFT SIDE */}
       <div className="text-white">
         <h1 className="font-bold text-lg sm:text-xl tracking-wide">RYAN BARSZCZ</h1>
-        <p className="text-xs sm:text-sm opacity-75 -mt-1">PORTFOLIO ’25</p>
+        <p className="text-xs sm:text-sm opacity-75 -mt-1">PORTFOLIO ’26</p>
       </div>
 
       {/* DESKTOP NAV (hidden on mobile) */}
