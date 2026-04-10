@@ -1,5 +1,22 @@
 [
   {
+    "id": "lifting-app",
+    "title": "Lifting App",
+    "year": "2026",
+    "description": "A production-style workout tracking system designed to simulate real-world backend architecture. Supports authenticated workout sessions, structured relational data, and performance analytics including total volume and estimated 1RM.",
+    "image": "/assets/projects/lifting.jpg",
+    "stack": ["Node.js", "Express", "PostgreSQL", "Prisma", "Clerk", "Jest"],
+    "highlights": [
+      "Real-time workout session tracking",
+      "Set-level data logging (weight, reps, volume)",
+      "Performance analytics (1RM, total volume)",
+      "Previous workout comparison system",
+      "Rate-limited and protected API endpoints"
+    ],
+    "live": "https://lifting-app-six.vercel.app/", 
+    "github": "https://github.com/RyanBarszcz/lifting-app"
+  },
+  {
   "id": "liberty-athletic-club",
   "title": "Liberty Athletic Club",
   "year": "2025",
@@ -14,6 +31,23 @@
   ],
   "live": "https://liberty-website.vercel.app/",
   "github": "https://github.com/RyanBarszcz/liberty-website"
+},
+{
+  "id": "alert-arrival",
+  "title": "Alert Arrival",
+  "year": "2024",
+  "description": "An award-winning automotive safety prototype built during GrizzHacks 6. Uses Python + OpenCV to detect vehicle arrival events and sends real-time alerts through a Flutter mobile interface. Designed to explore rapid-response safety workflows in automotive environments.",
+  "image": "/assets/projects/aa.jpg",
+  "stack": ["Flutter", "Python", "OpenCV", "Firebase"],
+  "highlights": [
+    "Winner — Best Automotive Hack",
+    "Real-time arrival detection",
+    "Cross-platform Flutter app",
+    "Instant push notification system"
+  ],
+  "live": "https://devpost.com/software/alert-arrival",
+  "github": "https://github.com/RyanBarszcz/Alert-Arrival",
+  "award": true
 },
 {
   "id": "potts-photography",
@@ -46,39 +80,6 @@
   ],
   "live": "https://job-portal-new-client-one-ashen.vercel.app/",
   "github": "https://github.com/RyanBarszcz/job-portal"
-},
-{
-  "id": "alert-arrival",
-  "title": "Alert Arrival",
-  "year": "2024",
-  "description": "An award-winning automotive safety prototype built during GrizzHacks 6. Uses Python + OpenCV to detect vehicle arrival events and sends real-time alerts through a Flutter mobile interface. Designed to explore rapid-response safety workflows in automotive environments.",
-  "image": "/assets/projects/aa.jpg",
-  "stack": ["Flutter", "Python", "OpenCV", "Firebase"],
-  "highlights": [
-    "Winner — Best Automotive Hack",
-    "Real-time arrival detection",
-    "Cross-platform Flutter app",
-    "Instant push notification system"
-  ],
-  "live": "https://devpost.com/software/alert-arrival",
-  "github": "https://github.com/RyanBarszcz/Alert-Arrival",
-  "award": true
-},
-{
-  "id": "banking-app",
-  "title": "Banking App",
-  "year": "2024",
-  "description": "A clean and modern banking interface featuring account views, transaction history, money transfers, and authentication flows. Built as a study in UI/UX design, secure navigation, and structured state management across multiple screens.",
-  "image": "/assets/projects/bank.jpg",
-  "stack": ["React Native", "Expo", "Context API", "TailwindCSS"],
-  "highlights": [
-    "Multi-screen financial UI",
-    "Secure login + onboarding flow",
-    "Transaction list + search",
-    "Cross-platform mobile experience"
-  ],
-  "live": "https://banking-ten-khaki.vercel.app/sign-in",
-  "github": "https://github.com/RyanBarszcz/BankingApp"
 }
 
 
