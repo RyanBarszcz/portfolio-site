@@ -1,5 +1,34 @@
 [
   {
+    "id": "driveiq",
+    "title": "DriveIQ - Vehicle Telemetry Platform",
+    "year": "2026",
+    "description": "A full-stack vehicle telemetry platform that captures, uploads, and visualizes real-time and historical OBD-II driving data. Features a Python desktop logger, FastAPI backend, interactive dashboards, cloud storage, Dockerized services, and automated CI testing.",
+    "image": "/assets/projects/telem.png",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "Docker",
+      "Docker Compose",
+      "GitHub Actions",
+      "AWS S3",
+      "Clerk",
+      "Pytest"
+    ],
+    "highlights": [
+      "USB OBD-II logger with configurable telemetry sampling",
+      "Interactive live and historical telemetry dashboards",
+      "Secure cloud uploads with AWS S3 and authenticated APIs",
+      "Dockerized architecture with automated GitHub Actions CI"
+    ],
+    "live": "https://telemetry.ryanbarszcz.com/",
+    "github": "https://github.com/RyanBarszcz/vehicle-telemetry"
+  },
+  {
     "id": "lifting-app",
     "title": "Lifting App",
     "year": "2026",
@@ -17,73 +46,52 @@
     "github": "https://github.com/RyanBarszcz/lifting-app"
   },
   {
-  "id": "liberty-athletic-club",
-  "title": "Liberty Athletic Club",
-  "year": "2025",
-  "description": "A full redesign for Liberty Athletic Club featuring modern layouts, GSAP-driven motion, a custom Sanity CMS, and a brand-consistent visual identity. Built for real-world use with mobile-first UX, optimized images, and smooth page transitions.",
-  "image": "/assets/projects/liberty.jpg",
-  "stack": ["React", "GSAP", "TailwindCSS", "Sanity CMS", "Node.js"],
-  "highlights": [
-    "Immersive GSAP animations",
-    "Sanity-powered CMS for staff",
-    "Responsive multi-page layout",
-    "Brand-focused UI components"
-  ],
-  "live": "https://liberty-website.vercel.app/",
-  "github": "https://github.com/RyanBarszcz/liberty-website"
-},
-{
-  "id": "alert-arrival",
-  "title": "Alert Arrival",
-  "year": "2024",
-  "description": "An award-winning automotive safety prototype built during GrizzHacks 6. Uses Python + OpenCV to detect vehicle arrival events and sends real-time alerts through a Flutter mobile interface. Designed to explore rapid-response safety workflows in automotive environments.",
-  "image": "/assets/projects/aa.jpg",
-  "stack": ["Flutter", "Python", "OpenCV", "Firebase"],
-  "highlights": [
-    "Winner — Best Automotive Hack",
-    "Real-time arrival detection",
-    "Cross-platform Flutter app",
-    "Instant push notification system"
-  ],
-  "live": "https://devpost.com/software/alert-arrival",
-  "github": "https://github.com/RyanBarszcz/Alert-Arrival",
-  "award": true
-},
-{
-  "id": "potts-photography",
-  "title": "Potts Photography",
-  "year": "2025",
-  "description": "A complete photography e-commerce experience with Stripe checkout, album management, CMS-driven content, and cinematic page reveals. Designed to feel elegant and premium while supporting real print sales.",
-  "image": "/assets/projects/ppp.jpg",
-  "stack": ["React", "GSAP", "Stripe", "Sanity CMS", "TailwindCSS"],
-  "highlights": [
-    "Embedded Stripe checkout",
-    "Dynamic album + prints system",
-    "Pinned GSAP interactions",
-    "Fully mobile-optimized design"
-  ],
-  "live": "https://patti-potts-photography.vercel.app/",
-  "github": "https://github.com/RyanBarszcz/potts-photo-site"
-},
-{
-  "id": "job-portal",
-  "title": "Job Portal Platform",
-  "year": "2025",
-  "description": "A full-stack job application platform built with modern authentication, role-based views, company dashboards, and a clean mobile-first UI. Includes job browsing, posting, application tracking, and real-time updates using Firebase.",
-  "image": "/assets/projects/job-portal.jpg",
-  "stack": ["React", "Firebase Auth", "Firestore", "TailwindCSS", "Node.js"],
-  "highlights": [
-    "Company + applicant role separation",
-    "Application tracking system",
-    "Real-time Firestore data updates",
-    "Clean, responsive dashboard UI"
-  ],
-  "live": "https://job-portal-new-client-one-ashen.vercel.app/",
-  "github": "https://github.com/RyanBarszcz/job-portal"
-}
-
-
-
-
-
+    "id": "liberty-athletic-club",
+    "title": "Liberty Athletic Club",
+    "year": "2025",
+    "description": "A full redesign for Liberty Athletic Club featuring modern layouts, GSAP-driven motion, a custom Sanity CMS, and a brand-consistent visual identity. Built for real-world use with mobile-first UX, optimized images, and smooth page transitions.",
+    "image": "/assets/projects/liberty.jpg",
+    "stack": ["React", "GSAP", "TailwindCSS", "Sanity CMS", "Node.js"],
+    "highlights": [
+      "Immersive GSAP animations",
+      "Sanity-powered CMS for staff",
+      "Responsive multi-page layout",
+      "Brand-focused UI components"
+    ],
+    "live": "https://liberty-website.vercel.app/",
+    "github": "https://github.com/RyanBarszcz/liberty-website"
+  },
+  {
+    "id": "alert-arrival",
+    "title": "Alert Arrival",
+    "year": "2024",
+    "description": "An award-winning automotive safety prototype built during GrizzHacks 6. Uses Python + OpenCV to detect vehicle arrival events and sends real-time alerts through a Flutter mobile interface. Designed to explore rapid-response safety workflows in automotive environments.",
+    "image": "/assets/projects/aa.jpg",
+    "stack": ["Flutter", "Python", "OpenCV", "Firebase"],
+    "highlights": [
+      "Winner — Best Automotive Hack",
+      "Real-time arrival detection",
+      "Cross-platform Flutter app",
+      "Instant push notification system"
+    ],
+    "live": "https://devpost.com/software/alert-arrival",
+    "github": "https://github.com/RyanBarszcz/Alert-Arrival",
+    "award": true
+  },
+  {
+    "id": "potts-photography",
+    "title": "Potts Photography",
+    "year": "2025",
+    "description": "A complete photography e-commerce experience with Stripe checkout, album management, CMS-driven content, and cinematic page reveals. Designed to feel elegant and premium while supporting real print sales.",
+    "image": "/assets/projects/ppp.jpg",
+    "stack": ["React", "GSAP", "Stripe", "Sanity CMS", "TailwindCSS"],
+    "highlights": [
+      "Embedded Stripe checkout",
+      "Dynamic album + prints system",
+      "Pinned GSAP interactions",
+      "Fully mobile-optimized design"
+    ],
+    "live": "https://patti-potts-photography.vercel.app/",
+    "github": "https://github.com/RyanBarszcz/potts-photo-site"
+  }
 ]
