@@ -3,27 +3,35 @@
     "id": "driveiq",
     "title": "DriveIQ - Vehicle Telemetry Platform",
     "year": "2026",
-    "description": "A full-stack vehicle telemetry platform that captures, uploads, and visualizes real-time and historical OBD-II driving data. Features a Python desktop logger, FastAPI backend, interactive dashboards, cloud storage, Dockerized services, and automated CI testing.",
+    "description": "A production-style vehicle telemetry platform that captures, processes, and visualizes real-time OBD-II data through a distributed cloud architecture. Features a Python hardware logger, FastAPI backend, real-time WebSocket dashboards, asynchronous processing, AWS infrastructure, and automated CI/CD.",
+
     "image": "/assets/projects/telem.png",
+
     "stack": [
       "Next.js",
       "TypeScript",
+      "React",
       "Python",
       "FastAPI",
       "PostgreSQL",
       "SQLAlchemy",
+      "WebSockets",
       "Docker",
-      "Docker Compose",
-      "GitHub Actions",
+      "AWS ECS/Fargate",
+      "AWS SQS",
       "AWS S3",
-      "Clerk",
-      "Pytest"
+      "AWS ECR",
+      "AWS CloudWatch",
+      "Terraform",
+      "GitHub Actions"
     ],
+
     "highlights": [
-      "USB OBD-II logger with configurable telemetry sampling",
-      "Interactive live and historical telemetry dashboards",
-      "Secure cloud uploads with AWS S3 and authenticated APIs",
-      "Dockerized architecture with automated GitHub Actions CI"
+      "Built a Python OBD-II logger for configurable real-time vehicle telemetry capture",
+      "Designed asynchronous telemetry processing with SQS and containerized background workers",
+      "Deployed scalable API and worker services on AWS ECS/Fargate with load balancing and autoscaling",
+      "Implemented real-time WebSocket dashboards and durable S3-backed telemetry storage",
+      "Provisioned AWS infrastructure with Terraform and automated testing and deployment workflows with GitHub Actions"
     ],
     "live": "https://telemetry.ryanbarszcz.com/",
     "github": "https://github.com/RyanBarszcz/vehicle-telemetry"
